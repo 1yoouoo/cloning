@@ -1,0 +1,40 @@
+.header1 {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    padding: 12px;
+    word-spacing: 10px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+body div img {
+    display: block; margin: auto;
+}
+
+input {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    width: 560px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: rgb(194, 190, 190) 0px 0px 7px;
+    border: solid rgb(226, 220, 220) 0.1px;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+}
+
+
+    
+    
+}
