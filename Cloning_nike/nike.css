@@ -12,6 +12,13 @@
 body {
     padding: 8px ;
 }
+
+.section1 {
+    text-align: center;
+    
+
+}
+
 .body_img {
     padding: 20px;
     width: 92%;
@@ -21,3 +28,36 @@ body {
     margin-left: auto;
 }
 
+#s1_1 {
+    font-family: "Noto sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #111111;
+    padding: 6px;
+}
+#s1_2 {
+    font-family: "Noto sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+    padding: 6px;
+}
+
+#s1_3 {
+    background-color: #111111;
+    border: none;
+    width: 159px;
+    height: 40px;
+    border-radius: 30px;
+    color: #ffffff;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+}
