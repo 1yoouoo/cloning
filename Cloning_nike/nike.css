@@ -1,0 +1,23 @@
+.flex_1 {
+    display: flex;
+}
+.item {
+    padding: 7px;
+}
+
+.item:nth-child(1) {
+    margin-right: auto;
+}
+
+body {
+    padding: 8px ;
+}
+.body_img {
+    padding: 20px;
+    width: 92%;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
