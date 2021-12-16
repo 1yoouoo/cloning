@@ -1,0 +1,58 @@
+body div img {
+    width: 375px;
+    height: auto;
+    padding: 0px;
+}
+body div {
+    text-align: center;
+}
+
+.header_flex div img {
+    width: 30px;
+    height: 25px;
+}
+
+.header_flex {
+    display: flex;
+    /*border: gray 1px solid;*/
+    justify-content: center;
+    
+}
+
+.header_flex div {
+    display: flex;
+    width: 1130px;
+    /*border: red 1px solid;*/
+    justify-content: space-between;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.header_flex div div {
+    display: flex;
+    width: 900px;
+    /*border: blue 1px solid;*/
+    align-items: flex-end;
+}
+
+.header_flex div div a {
+    /*border: green 1px solid;*/
+    text-decoration: none;
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+
+#item1:hover {
+    border-bottom: red 2px solid; /*border가 생기면서 전체 라인이 흔들린다 --수정*/
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+}
