@@ -2,6 +2,7 @@ body div img {
     width: 375px;
     height: auto;
     padding: 0px;
+    margin-top: 9px;
 }
 body div {
     text-align: center;
@@ -31,8 +32,8 @@ body div {
 .header_flex div div {
     display: flex;
     width: 900px;
-    /*border: blue 1px solid;*/
     align-items: flex-end;
+
 }
 
 .header_flex div div a {
@@ -45,14 +46,121 @@ body div {
     font-size: 16px;
     line-height: 32px;
     padding-bottom: 2px;
+    border: 2px white solid;
 }
 
 #item1:hover {
-    border-bottom: red 2px solid; /*border가 생기면서 전체 라인이 흔들린다 --수정*/
+    border-bottom: red 2px solid; 
+    /*border가 생기면서 전체 라인이 흔들린다 -->> hover전에도 border을 주니까 해결됨*/
     color: #333333;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 16px;
     line-height: 32px;
+    padding-bottom: 2px;
+}
+#item2:hover {
+    border-bottom: red 2px solid; 
+    /*border가 생기면서 전체 라인이 흔들린다 -->> hover전에도 border을 주니까 해결됨*/
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+#item3:hover {
+    border-bottom: red 2px solid; 
+    /*border가 생기면서 전체 라인이 흔들린다 -->> hover전에도 border을 주니까 해결됨*/
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+#item4:hover {
+    border-bottom: red 2px solid; 
+    /*border가 생기면서 전체 라인이 흔들린다 -->> hover전에도 border을 주니까 해결됨*/
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+#item5:hover {
+    border-bottom: red 2px solid; 
+    /*border가 생기면서 전체 라인이 흔들린다 -->> hover전에도 border을 주니까 해결됨*/
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+#item6:hover {
+    border-bottom: red 2px solid; 
+    /*border가 생기면서 전체 라인이 흔들린다 -->> hover전에도 border을 주니까 해결됨*/
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+#item7:hover {
+    border-bottom: red 2px solid; 
+    /*border가 생기면서 전체 라인이 흔들린다 -->> hover전에도 border을 주니까 해결됨*/
+    color: #333333;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+
+
+.header_readme {
+    background-color: #ffffcc;
+    border-top: 1px gray solid;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    
+}
+#header_readme_item1{
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+
+#header_readme_item2 {
+    align-self: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+#header_readme_item2:hover {
+    align-self: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    text-decoration: underline red;
+}
+
+/*옆으로 움직이는 효과 넣어야함*/
+#header_readme_item3 {
+    width: 30px;
+    height: 25px;
 }
