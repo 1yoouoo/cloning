@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 body div img {
     width: 375px;
     height: auto;
@@ -161,6 +165,20 @@ body div {
 
 /*옆으로 움직이는 효과 넣어야함*/
 #header_readme_item3 {
-    width: 30px;
-    height: 25px;
+    width: 25px;
+    height: 18px;
+    margin: auto;
+}
+
+.header_readme a {
+    align-self: center;
+    height: 20px;
+}
+
+.body_first_paragragh div {
+    background-image: url(Img/coca_cola_body_img1.png);
+    background-size: 2300px;
+    background-color: powderblue;
+    height: 1440px;
+    background-repeat: no-repeat;
 }
